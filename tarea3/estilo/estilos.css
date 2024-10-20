@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+        background-color: aqua;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        margin: 0;
+        padding: 0;
+        color: aliceblue;
+    }
+    #contenedor {
+        background-color: #2A2929;
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #form{
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    input[type="text"], input[type="email"], input[type="url"], textarea {
+        margin-top: 2px;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+    }
+    input[type="text" i] {
+        padding-block: 1px;
+        padding-inline: 2px;
+    }
+    textarea {
+        height: 150px;
+    }
+    #form p {
+        width: 100px;
+        margin-top: 20px;
+    }
+    input[type="submit"] {
+        display: block;
+        margin: 15px auto;
+        width: 100px;
+        height: 50px;
+        color: aliceblue;
+        background: linear-gradient(white, blue);
+        border: 0;
+    }
+    #contenedor {
+        background-color: #2A2929;
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+/* Mediaquaris para tablets*/
+    @media only screen and (max-width: 980px) {
+        #contenedor {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+/* Mediaquaris para celular*/
+        @media only screen and (max-width: 480px) {
+            #contenedor {
+                width: 98%;
+                margin: 0 auto;
+                background: #FF0004;
+            }
+        
+ }

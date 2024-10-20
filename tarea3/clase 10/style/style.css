@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: pink;
+    font-family: tahoma;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.formulario{
+    width: 50%;
+    margin: auto;
+    background: purple;
+    color: white;
+    padding: 10px;
+}
+input[type="text"], input[type="number"], input[type="email"]{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px 10px 0px
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus{
+    outline: 0 none;
+}
+
+select:focus, textarea:focus{
+    outline: 0 none;
+}
+
+select, textarea{
+    width: 100%;
+    margin: 10px 0px 10px 0px
+    
+}
+
+
+input[type="submit"]{
+    width: 350px;
+    background: black;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border: 0 none;
+    display: block;
+    margin: auto;
+}
+/* Mediaquaris para tablets */
+@media only screen and (max-width: 980px){
+    .formulario{
+        width: 80%;
+        background: deeppink;
+    }
+}
+/* Mediaquaris para celular */
+@media only screen and (max-width: 480px){
+    .formulario{
+        width: 98%;
+        background:darkmagenta;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+}
